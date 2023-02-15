@@ -1,3 +1,5 @@
+package by.itacademy.pavelpetrik.javabasics.oop;
+
 public class Customer {
     // Поля скрыли от внешненго доступа
     private  int numberId;

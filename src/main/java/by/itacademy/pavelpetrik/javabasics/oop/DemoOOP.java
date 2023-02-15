@@ -1,3 +1,5 @@
+package by.itacademy.pavelpetrik.javabasics.oop;
+
 public class DemoOOP {
     public static void main(String[] args) {
         // Создаем объекты и адаем значение параметров
@@ -52,11 +54,14 @@ public class DemoOOP {
         System.out.println("Цена автомобиля($): " + car1.getPrice());
         System.out.println("Регистрационный номер автомобиля: " + car1.getRegistrationNumber());
 
-      //  User user1= new User();
 
-      //  Student student1= new Student();
+        Student student1= new Student();
+        student1.getGrant();
+        System.out.println(student1.getGrant());
 
-      //  Person person1 = new Person();
+         Person person1 = new Person();
+         person1.getSalary();
+        System.out.println(person1.getSalary());
 
 
 
