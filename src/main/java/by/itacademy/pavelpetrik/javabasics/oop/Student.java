@@ -2,6 +2,7 @@ package by.itacademy.pavelpetrik.javabasics.oop;
 
 public class Student extends User {
     private static int grant;
+
     // метод установки значений
     public void setGrant(int newGrant){
         grant = newGrant;

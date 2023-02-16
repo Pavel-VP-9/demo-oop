@@ -56,12 +56,12 @@ public class DemoOOP {
 
 
         Student student1= new Student();
-        student1.getGrant();
-        System.out.println(student1.getGrant());
+        student1.setGrant(20);
+        System.out.println(student1.getIncome());
 
          Person person1 = new Person();
-         person1.getSalary();
-        System.out.println(person1.getSalary());
+         person1.setSalary(60);
+         System.out.println(person1.getIncome());
 
 
 
